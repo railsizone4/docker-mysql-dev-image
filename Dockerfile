@@ -1,0 +1,8 @@
+FROM mysql:8
+
+ENV MYSQL_DATABASE=devdb
+ENV MYSQL_ROOT_PASSWORD=dev
+
+EXPOSE 3306
+
+VOLUME /var/lib/mysql
